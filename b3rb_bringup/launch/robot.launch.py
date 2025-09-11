@@ -54,7 +54,7 @@ ARGUMENTS = [
     DeclareLaunchArgument('capabilities', default_value='[clientPublish,services,connectionGraph,assets]',
         description='capabilities for foxglove'),
     DeclareLaunchArgument('topic_whitelist',
-        default_value=['["/camera/image_raw/compressed","/camera_mipi/image_raw/compressed","/camera_logi/image_raw/compressed","/debug_images/object_recog","/camera/camera_info","/cerebri/out/status","/cerebri/out/nav_sat_fix","/global_costmap/costmap","/map","global_costmap/published_footprint","/plan","/robot_description","/tf"]'],
+        default_value=['["/camera/image_raw/compressed","/camera_mipi/image_raw/compressed","/camera_logi/image_raw/compressed","/debug_images/object_recog","/camera/camera_info","/cerebri/out/status","/cerebri/out/nav_sat_fix","/global_costmap/costmap","/map","global_costmap/published_footprint","/plan","/robot_description","/tf","/debug_images/thresh_image"]'],
         description='topic_whitelist for foxglove'),
     DeclareLaunchArgument('service_whitelist',
         default_value=['[""]'],

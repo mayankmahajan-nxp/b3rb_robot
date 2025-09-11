@@ -21,7 +21,7 @@
   <arg name="width_2" default="640"/>
   <arg name="height_2" default="360"/>
 
-  <node namespace="" name="ov5645_logi" pkg="gscam" exec="gscam_node" output="screen">
+  <node namespace="" name="logi_cam" pkg="gscam" exec="gscam_node" output="screen">
     <param name="camera_name" value="camera_logi"/>
     <param name="camera_frame" value="camera_link_optical_2"/>
     <param name="camera_info_url" value="None"/>
